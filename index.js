@@ -15,7 +15,7 @@ app.use("/employees", employeeRouter);
 app.listen(process.env.port, async () => {
   try {
     await connection;
-    console.log("Server running at port 8080");
+    console.log("Server running at port 8888");
     console.log("Connected to DB");
   } catch (err) {
     console.log(err);
